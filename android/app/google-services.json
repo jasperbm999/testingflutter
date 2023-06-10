@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "976890515293",
+    "project_id": "authtutorial-b76bf",
+    "storage_bucket": "authtutorial-b76bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976890515293:android:13feb28ad613f5158f62b4",
+        "android_client_info": {
+          "package_name": "com.example.testingflutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976890515293-34lk5irodom72icsaf41uoobcsjituvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDprmfb76bGGubuUNrJnSINPM68uCiM6og"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976890515293-34lk5irodom72icsaf41uoobcsjituvd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
