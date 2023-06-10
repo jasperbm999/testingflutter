@@ -12,7 +12,6 @@ class LoginPage extends StatelessWidget {
 
   // sign user in method
   void signUserIn() async {
-
 await FirebaseAuth.instance.signInWithEmailAndPassword(
   
   email: emailController.text,
