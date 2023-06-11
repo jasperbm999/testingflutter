@@ -21,10 +21,24 @@ class _LoginPageState extends State<LoginPage> {
   // sign in
 
   void signIn() async {
+    try {
 await FirebaseAuth.instance.signInWithEmailAndPassword(
   email: emailController.text, 
   password: passwordController.text,
   );
+  } on FirebaseAuthException catch (e) {
+    displayMessage(e.code);
+  }
+  }
+  // display a dialog message
+
+  void displayMessage(String message) {
+    showDialog(
+      context: context, 
+      builder: (context) => AlertDialog(
+        title: Text(message),
+      ),
+    );
   }
 
   @override
