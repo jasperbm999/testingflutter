@@ -62,7 +62,7 @@ if (textController.text.isNotEmpty) {
                 child: StreamBuilder(
                   stream: FirebaseFirestore.instance
                   .collection("User Posts")
-                  .orderBy("Timestamp",
+                  .orderBy("TimeStamp",
                    descending: false,
                   
                   )
